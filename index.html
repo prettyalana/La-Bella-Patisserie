@@ -1,105 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>La Bella Pâtisserie</title>
-    <script src="https://kit.fontawesome.com/ab9c75fe83.js" crossorigin="anonymous"></script>
-</head>
-<body>
-<div class="navbar"> 
-   <div class="logo-container">
-      <div class="logo">
-         <img src="https://images.pexels.com/photos/14206178/pexels-photo-14206178.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">La Bella Pâtisserie
+    <script
+      src="https://kit.fontawesome.com/ab9c75fe83.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo-container">
+        <div class="logo">
+          <img
+            src="https://images.pexels.com/photos/14206178/pexels-photo-14206178.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          />La Bella Pâtisserie
+        </div>
       </div>
-   </div>
-   <div class="links"> 
-      <ul class="link-actions">
-         <li>
+      <div class="links">
+        <ul class="link-actions">
+          <li>
             <a href="index.html">Home</a>
-         </li>
-         <!-- <li>
-            <a href="pages/menu.html">Menu</a>
-         </li> -->
-         <div class="drop-down-menu">
+          </li>
+          <div class="drop-down-menu">
             <button class="drop-down-menu-btn">Menu</button>
             <div class="menu-links">
-               <a href="#">Breakfast Pastries</a>
-               <a href="#">Lunch Pastries</a>
-               <a href="#">Dinner Pastries</a>
+              <a href="#">Breakfast Pastries</a>
+              <a href="#">Lunch Pastries</a>
+              <a href="#">Dinner Pastries</a>
             </div>
-         </div>
-         <li>
+          </div>
+          <li>
             <a href="pages/services.html">Services</a>
-         </li>
-         <li>
+          </li>
+          <li>
             <a href="pages/promo.html">Promo</a>
-         </li>
-         <li>
+          </li>
+          <li>
             <a href="pages/account.html"></a>
-         </li>
-      </ul>
-      <div class="button-container">
-         <button class="create-account-button"><a href="pages/sign-up.html" onclick="">Create Account</a></button>
+          </li>
+        </ul>
+        <div class="button-container">
+          <button class="create-account-button">
+            <a href="pages/sign-up.html" onclick="">Create Account</a>
+          </button>
+        </div>
       </div>
-   </div>
-</div>
-<div id="website-visitors">
-   <div class="visitor-information">
-      <!-- <div class="top">
-         <div class="visitor">Current Visitors : </div>
-         <div id="count">0</div>
-      </div> -->
-      <div class="top">
-         <div class="visitor">Vaporwave?</div>
+    </div>
+    <div id="website-visitors">
+      <div class="visitor-information">
+        <div class="top">
+          <div class="visitor">Vaporwave?</div>
+        </div>
+        <div class="bottom">
+          <div class="visitor-btn-container">
+            <button id="music-player" onclick="toggle()">
+              <i class="fa-solid fa-music"
+                ><audio id="audio" src="assets/Vaporwave.mp3"></audio
+              ></i>
+            </button>
+          </div>
+        </div>
       </div>
-      <div class="bottom">
-         <div class="visitor-btn-container">
-            <!-- <button id="increment-btn" onclick="increment()" onmousedown="play()" onmouseup="stop()">Increment</button></div> -->
-            <button id="music-player" onclick="toggle()"><i class="fa-solid fa-music"><audio id="audio" src="assets/Vaporwave.mp3"></audio></i></button>
-         </div>
-      </div>
-   </div>
-</div>
-<!-- <hr class="solid"> -->
-<div class="article">
-   <div class="article-text">
-      <div class="article-header">
-         <h2>Food that heals</h2>
-      </div>
-      <div class="article-quote">
-              <p>
-               "Food may be essential as fuel for the body but good food is fuel for the soul." 
-               - Malcolm Forbes
-              </p>
-      </div>
-      <div class="article-info">
-               <p>
-                  At La Bella Pátisserie we use the highest quality all organic ingredients to deliver you the most healthy delectable pastries.
-               </p>
-      </div>
-      <div class="buttons">
-         <button class="order-now" onclick="alert('Order today!')">
+    </div>
+    <div class="article">
+      <div class="article-text">
+        <div class="article-header">
+          <h2>Food that heals</h2>
+        </div>
+        <div class="article-quote">
+          <p>
+            "Food may be essential as fuel for the body but good food is fuel
+            for the soul." - Malcolm Forbes
+          </p>
+        </div>
+        <div class="article-info">
+          <p>
+            At La Bella Pátisserie we use the highest quality all organic
+            ingredients to deliver you the most healthy delectable pastries.
+          </p>
+        </div>
+        <div class="buttons">
+          <button class="order-now" onclick="alert('Order today!')">
             Order Now
-         </button>
-         <button class="log-in"><a href="pages/log-in.html" onclick="alert('Log in!')">Log in</a>
-         </button>
+          </button>
+          <button class="log-in">
+            <a href="pages/log-in.html" onclick="alert('Log in!')">Log in</a>
+          </button>
+        </div>
       </div>
-   </div>
-   <div class="article-image">
-      <img src="https://images.pexels.com/photos/14976528/pexels-photo-14976528.jpeg">
-   </div>
-</div>
-<div class="article-two">
-   <div class="article-two-image">
-      <img src="https://images.pexels.com/photos/4408085/pexels-photo-4408085.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
-   </div>
-</div>
-<!-- <div class="container">
-   <i class="fa-solid fa-heart"></i>
-</div> -->
-<script src="index.js"></script>
-</body>
+      <div class="article-image">
+        <img
+          src="https://images.pexels.com/photos/14976528/pexels-photo-14976528.jpeg"
+        />
+      </div>
+    </div>
+    <div class="article-two">
+      <div class="article-two-image">
+        <img
+          src="https://images.pexels.com/photos/4408085/pexels-photo-4408085.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        />
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
 </html>
