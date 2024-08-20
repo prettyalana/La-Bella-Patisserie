@@ -97,30 +97,34 @@ a {
   width: 9.375rem;
 }
 
-.article-image img {
-  width: 100%;
-  height: 580px;
-  border-radius: 100%;
-}
-
 .article {
   display: flex;
   margin-top: 3.125rem;
-}
-
-.article-image {
-  display: flex;
-  justify-content: flex-end;
-  width: 50%;
+  height: 100vh;
 }
 
 .article-text {
   display: flex;
   flex-direction: column;
   padding: 1rem;
+  margin-left: 10px;
   width: 50%;
   justify-content: center;
   gap: 50px;
+}
+
+.article-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+#pastry-image-one {
+  border-radius: 100%;
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
 }
 
 .article-header h2 {
